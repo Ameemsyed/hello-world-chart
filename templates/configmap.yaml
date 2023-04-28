@@ -3,6 +3,6 @@ kind: ConfigMap
 metadata:
   name: {{ include "hello-world-chart.fullname" . }}-config
   labels:
-    app: {{ - include "hello-world-chart.labels" . | nindent 4 }}
+    app: {{ include "hello-world-chart.labels" . | nindent 4 }}
 data:
   index.html: {{ .Values.customHtml | quote }}
