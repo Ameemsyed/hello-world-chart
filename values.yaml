@@ -84,10 +84,10 @@ customHtml: |
   <!DOCTYPE html>
   <html>
   <head>
-    <title>Welcome to my custom nginx page</title>
+    <title>Hello-world</title>
   </head>
   <body>
     <h1>Hello, world!</h1>
-    <p>This is my custom nginx page.</p>
+    <p>This is my custom nginx page helm upgrade.</p>
   </body>
   </html>
